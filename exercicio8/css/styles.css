@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'A-minha-fonte';
+    src: url(../fonts/maicons.ttf);
+}
+
+body{
+    background-color: white;
+}
+
+.up-header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20px;
+    width: 100%;
+    align-items: center;
+    color: grey;
+    font-size: 12px;
+}
+
+.header-l{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.header-r{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 80px;
+    align-items: center;
+}
+
+hr { 
+    display: block;
+    border-style:solid;
+    border-width: 0.5px;
+    border-color:lightgrey;
+} 
+
+.down-header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 60px;
+    align-items: center;
+}
+
+.header-1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 80px;
+    color: grey;
+    font-size: 18px;
+}
+
+.box-content{
+    width: 100%;
+    float: left;
+    background: white;
+}
+
+.box-content-text{
+    position: absolute;
+    text-align: center;
+    padding: 100px
+    ;
+    float: left;
+}
+
+.box-content img{
+    width: 100%;
+    float: left;
+}
+
+.about-us{
+    width: 100%;
+    height: 480px;
+    float: left;
+    background: pink;
+}
+
+.our-services{
+    width: 100%;
+    height: 480px;
+    float: left;
+    background: yellow;
+}
+
+.our-teams{
+    width: 100%;
+    height: 480px;
+    float: left;
+    background: lightseagreen;
+}
+
+.portfolio{
+    width: 100%;
+    height: 960px;
+    float: left;
+    background: tomato;
+}
+
+.news{
+    width: 100%;
+    height: 480px;
+    float: left;
+    background: gray;
+}
+
+.stay-in-touch{
+    width: 100%;
+    height: 510px;
+    float: left;
+    background: khaki;
+}
+
+footer{
+    width: 100%;
+    height: 430px;
+    float: left;
+    background: green;
+}
