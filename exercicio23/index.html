@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        lista_de_numeros = [10,36,9,87,24,1,1];
+
+        encontrou = false;
+        
+     /*   for(i=0; i<=6; i=i+1){
+            numero_lido=lista_de_numeros[i];
+
+            if(numero_lido === 10){
+                encontrou = true;
+            }
+
+            //console.log(lista_de_numeros[i]);
+            
+        }
+        */
+        i=0;
+
+        while(encontrou == false && i<=6){
+            numero_lido = lista_de_numeros[i];
+            if(numero_lido === 10){
+                encontrou=true;
+            }
+            i=i+1;
+        }
+
+        if(encontrou==true){
+                document.write("O numero está na lista")
+        } else{
+                document.write("O numero não está na lista")
+      }
+    </script>
+</body>
+</html>

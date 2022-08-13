@@ -1,0 +1,9 @@
+variáveis
+
+inteiras
+strings
+booleana
+
+quando quiser comparara o valor e o tipo, tenho que colocar ===
+
+== comparação

@@ -1,0 +1,12 @@
+.caixa_drop{
+    width: 200px;
+    background: orange;
+    padding: 20px;
+    display: none;
+}
+
+.caixa-4{
+    width: 200px;
+    background: rgb(57, 190, 133);
+    padding: 20px;
+}
