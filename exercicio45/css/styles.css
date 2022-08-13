@@ -1,0 +1,25 @@
+body{
+    overflow-x: hidden;
+}
+
+.caixa-1{
+    background-color: orange;
+    height: 150px;
+}
+
+.caixa-3{
+    background-color: cadetblue;
+    height: 150px;
+}
+
+.caixa-4{
+    background-color: royalblue;
+    height: 150px;
+}
+
+.caixa-generica{
+    background-color: navy;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
